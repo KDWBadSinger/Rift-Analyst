@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rift Anlyst</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    Summoner name: <input type="text" id="summoner_name"></br>
+    <select id="choose_region">
+        <option value="0">BR</option>
+        <option value="1">EUN</option>
+        <option value="2">EUW</option>
+        <option value="3">JP</option>
+        <option value="4">KR</option>
+        <option value="5">LA1</option>
+        <option value="6">LA2</option>
+        <option value="7">NA</option>
+        <option value="8">OC</option>
+        <option value="9">TR</option>
+        <option value="10">RU</option>
+        <option value="11">PH</option>
+        <option value="12">SG</option>
+        <option value="13">TH</option>
+        <option value="14">TW</option>
+        <option value="15">VN</option>
+    </select>
+    
+    <input type="button" id="search-button" value="Search the chosen summoner" onclick="Search_summoner()">
+    <div id="summoner_name_data"></div>
+    <div id="summonerlevel_data"></div>
+    <div id="summonerprofile_data">
+        <img id="summonerprofilepic_picture" src="">
+    </div>
+    <div id="ranked_DATA">
+        <div id="ranked_win">
+            Win:
+        </div>
+        <div id="ranked_lose">
+            Loss:
+        </div>
+        <div id="ranked_winratio"></div>
+        <div id="ranked_division"></div>
+    </div>
+<div id="champStats">
+
+</div>
+</br>
+<div id ="matchHistory"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
