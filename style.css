@@ -1,0 +1,167 @@
+body
+{
+    text-align: center;
+    vertical-align: middle;
+}
+#ranked_DATA
+{
+    /* background-color: rgb(50, 176, 207); */
+    border: 2px solid black;
+    /* width: 400px; */
+    height: 150px;
+    padding: 12px;
+    text-align: center;
+    vertical-align: middle;
+}
+#ranked_win
+{
+    color: green;
+    font-weight: bold;
+    font-size: 40px;
+    float: left;
+    padding: 15px;
+}
+#ranked_lose
+{
+    color: red;
+    font-weight: bold;
+    font-size: 40px;
+    float: left;
+    padding: 15px;
+}
+#ranked_winratio
+{
+    color: rgb(0, 153, 255);
+    font-weight: bold;
+    font-size: 40px;
+    float: left;
+    padding: 15px;
+}
+#ranked_division
+{
+    color: rgb(0, 153, 255);
+    font-weight: bold;
+    font-size: 40px;
+    float: left;
+    padding: 15px;
+}
+#currentChamp
+{
+    width: 400px;
+    height: 300px;
+    float: left;
+    color: rgb(255, 255, 255);
+    /* border: 1px solid black; */
+    padding: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(70,70,118);
+    border-radius: 35px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cChampImg
+{   
+    border-radius: 50px;
+}
+#match
+{
+    width: 1350px;
+    height: 250px;
+    float: left;
+    padding: 15px;
+    border: 5px solid white;
+    background-color: rgb(153, 0, 255);
+}
+#result
+{
+    width: 120px;
+    height: 30px;
+    
+}
+#championMatch
+{
+    width: 120px;
+    /* height: 60px; */
+    border-radius: 60px;
+}
+#championMatch img
+{
+    border-radius: 20px;
+}
+#matchTime
+{
+    width: 120px;
+    height: 30px;
+    float: left;
+    text-align: center;
+}
+#matchSpell1
+{
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+#matchSpell2
+{
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+#matchRune1
+{
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+#matchRune2
+{
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+#items
+{
+    width: 240px;
+    height: 60px;
+    float: left;
+}
+#matchStats
+{
+    width: 150px;
+    height: 90px;
+    float: left;
+    font-size: 16px;
+}
+#blueTeam
+{
+    width: 150px;
+    height: 210px;
+    float: left;
+    background-color: rgb(37, 0, 247);
+    text-align: left;
+    padding: 10px;
+}
+#redTeam
+{
+    width: 150px;
+    height: 210px;
+    float: left;
+    background-color: rgb(247, 0, 0);
+    text-align: right;
+    padding: 10px;
+}
+#items img
+{
+    float: left;
+}
+#matchHistory
+{
+    clear: both;
+}
+#firstColumn
+{
+    float: left;
+}
